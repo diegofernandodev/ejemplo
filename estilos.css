@@ -2,9 +2,28 @@ body{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
     
 }
 
 body h1{
     font-size: 5rem;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+.ejemplo{
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
